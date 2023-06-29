@@ -1,0 +1,5 @@
+repositories:
+  ompl:
+    type: git
+    url: https://github.com/ompl/ompl.git
+    version: 2ecd327ca66890e84dd4e3649503e0eb765a13c8

@@ -1,0 +1,37 @@
+Package: ros-humble-ompl-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.6.0-41-g2ecd327c-2023.06.29.10.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-ompl
+Maintainer: Mark Moll <mmoll@rice.edu>
+Installed-Size: 49337
+Depends: ros-humble-ompl (= 1.6.0-41-g2ecd327c-2023.06.29.10.32)
+Filename: ./ros-humble-ompl-dbgsym_1.6.0-41-g2ecd327c-2023.06.29.10.32_amd64.ddeb
+Size: 47558748
+MD5sum: 93747e3665abaa5ddd237b240773b1bc
+SHA1: 0950e414ff7782659c6131023291d4b4e6b5c6df
+SHA256: 6e47495243630998ab2d74d120e8da1859963935c31238df7c3f414841abafc8
+SHA512: ec10d638dccb1129452c912921822a2bca49569f3ad9a33a47dc7a136223dcc88801577db2c40b8c4b7458c8e10ad324b5940a26f224061c4ed9299470f79cc2
+Description: debug symbols for ros-humble-ompl
+Build-Ids: 022a595018d23e13f4a1374e3a9a51e1a5a8f083
+
+Package: ros-humble-ompl
+Architecture: amd64
+Version: 1.6.0-41-g2ecd327c-2023.06.29.10.32
+Priority: optional
+Section: misc
+Maintainer: Mark Moll <mmoll@rice.edu>
+Installed-Size: 8766
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 11), libboost-all-dev, libeigen3-dev, libflann-dev
+Filename: ./ros-humble-ompl_1.6.0-41-g2ecd327c-2023.06.29.10.32_amd64.deb
+Size: 1791062
+MD5sum: 1abf587a737f576f1f25e77f55c4f912
+SHA1: 8603b61b3779973d7d2809e0799f0c34f51c48c4
+SHA256: 999c8aad640775d358c1e03d2185ec678ec3797695f4b9c0fae04b62794030b9
+SHA512: 742d328c2948cf93cfe3745801c75df2afc642cbdaf40753c9bd8b7bd7fd6a96ca40d8ef54c2b4ee68052e1af499cc89415d45421c4bf57288bd93b9d17d2767
+Homepage: https://ompl.kavrakilab.org
+Description: OMPL is a free sampling-based motion planning library.
+
